@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+
+.text-field {
+	margin-bottom: 1rem;
+}
+
+/*Выравнивание по центру у содержимого формы*/
+.regForm{
+	text-align: center;
+	margin-top: 188px;
+	margin-bottom: 188px;
+}
+
+/*Отсупы у текстбоксов*/
+.regFormInput{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.text{
+    width: 30%;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn{
+	margin-top: 10px;
+  	display: inline-block;
+  	color: black;
+  	font-weight: 700;
+  	text-decoration: none;
+  	user-select: none;
+  	padding: .5em 2em;
+  	outline: none;
+  	border: 2px solid;
+  	border-radius: 1px;
+  	transition: 0.2s;
+} 
+.btn:hover { 
+	background: rgba(255,255,255,.2); 
+}
+.btn:active {
+	background: green; 
+}
